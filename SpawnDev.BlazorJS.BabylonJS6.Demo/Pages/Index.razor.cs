@@ -77,7 +77,7 @@ namespace SpawnDev.BlazorJS.BabylonJS6.Demo.Pages
                 // Set the target of the camera to the first imported mesh
                 camera.Target = meshes[0];
                 // Scale to half size
-                meshes.Map(m => m.Scaling.ScaleInPlace(0.5));
+                meshes.ForEach(m => m.Scaling.ScaleInPlace(0.5));
             }));
             scene.RegisterBeforeRender(SceneBeforeRenderCallback = new ActionCallback(() => {
                 light.Position = camera.Position;
