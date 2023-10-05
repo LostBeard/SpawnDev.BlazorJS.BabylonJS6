@@ -1,0 +1,40 @@
+<Project Sdk="Microsoft.NET.Sdk.Razor">
+
+	<PropertyGroup>
+		<TargetFramework>net8.0</TargetFramework>
+		<Nullable>enable</Nullable>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Version>1.0.0-alpha</Version>
+		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+		<Title>SpawnDev.BlazorJS.BabylonJS6</Title>
+		<Authors>LostBeard</Authors>
+		<Description>Brings BabylonJS 6 to Blazor WASM.</Description>
+		<PackageProjectUrl>https://github.com/LostBeard/SpawnDev.BlazorJS.BabylonJS6</PackageProjectUrl>
+		<PackageReadmeFile>README.md</PackageReadmeFile>
+		<PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
+		<RepositoryUrl>https://github.com/LostBeard/SpawnDev.BlazorJS.BabylonJS6.git</RepositoryUrl>
+		<RepositoryType>git</RepositoryType>
+		<PackageTags>Blazor;BlazorWebAssembly;DotNet;BabylonJS</PackageTags>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<SupportedPlatform Include="browser" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="SpawnDev.BlazorJS" Version="2.2.11" />
+	</ItemGroup>
+
+	<ItemGroup Condition=" '$(TargetFramework)' == 'net6.0' ">
+		<PackageReference Include="Microsoft.AspNetCore.Components.Web" Version="6.0.16" />
+	</ItemGroup>
+
+	<ItemGroup Condition=" '$(TargetFramework)' == 'net7.0' ">
+		<PackageReference Include="Microsoft.AspNetCore.Components.Web" Version="7.0.5" />
+	</ItemGroup>
+
+	<ItemGroup Condition=" '$(TargetFramework)' == 'net8.0' ">
+		<PackageReference Include="Microsoft.AspNetCore.Components.Web" Version="8.0.0-rc.1.23421.29" />
+	</ItemGroup>
+
+</Project>

@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34112.27
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpawnDev.BlazorJS.BabylonJS6.Demo", "SpawnDev.BlazorJS.BabylonJS6.Demo\SpawnDev.BlazorJS.BabylonJS6.Demo.csproj", "{3062FC7E-A868-45EC-9633-8538A06E8B4E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpawnDev.BlazorJS.BabylonJS6", "SpawnDev.BlazorJS.BabylonJS6\SpawnDev.BlazorJS.BabylonJS6.csproj", "{15B1EB2D-AAF4-4A07-BCC0-EEC229F52CA4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3062FC7E-A868-45EC-9633-8538A06E8B4E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3062FC7E-A868-45EC-9633-8538A06E8B4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3062FC7E-A868-45EC-9633-8538A06E8B4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3062FC7E-A868-45EC-9633-8538A06E8B4E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15B1EB2D-AAF4-4A07-BCC0-EEC229F52CA4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15B1EB2D-AAF4-4A07-BCC0-EEC229F52CA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15B1EB2D-AAF4-4A07-BCC0-EEC229F52CA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15B1EB2D-AAF4-4A07-BCC0-EEC229F52CA4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E1BD0B28-B34D-411A-A8FA-5FC889AA3241}
+	EndGlobalSection
+EndGlobal
