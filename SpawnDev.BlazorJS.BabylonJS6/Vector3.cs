@@ -14,6 +14,9 @@ namespace SpawnDev.BlazorJS.BabylonJS6
             public double X { get => JSRef.Get<double>("x"); set => JSRef.Set("x", value); }
             public double Y { get => JSRef.Get<double>("y"); set => JSRef.Set("y", value); }
             public double Z { get => JSRef.Get<double>("z"); set => JSRef.Set("z", value); }
+            public Vector3 ScaleInPlace(double scale) => JSRef.Call<Vector3>("scaleInPlace", scale);
+            public Vector3 Set(double x, double y, double z) => JSRef.Call<Vector3>("set", x, y, z);
+            public Vector3 SetAll(double v) => JSRef.Call<Vector3>("setAll", v);
         }
     }
 }
