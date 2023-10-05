@@ -62,7 +62,7 @@ namespace SpawnDev.BlazorJS.BabylonJS6.Demo.Pages
             var light = new BABYLON.PointLight("Omni", new BABYLON.Vector3(20, 20, 100), scene);
             // Adding an Arc Rotate Camera
             var camera = new BABYLON.ArcRotateCamera("Camera", 0, 1, 0, BABYLON.Vector3.Zero(), scene);
-            camera.Position = new Vector3(500, 500, 500);
+            camera.Position = new BABYLON.Vector3(500, 500, 500);
             // This attaches the camera to the canvas
             camera.AttachControl(canvas, false);
             // load .obj
@@ -75,7 +75,7 @@ namespace SpawnDev.BlazorJS.BabylonJS6.Demo.Pages
             {
                 // Set the target of the camera to the first imported mesh
                 camera.Target = meshes[0].Position;
-                meshes.Map(m => m.Scaling = new Vector3(0.2));
+                meshes.Map(m => m.Scaling = new BABYLON.Vector3(0.2));
             }));
             scene.RegisterBeforeRender(SceneBeforeRenderCallback = new ActionCallback(() => {
                 light.Position = camera.Position;
@@ -115,6 +115,7 @@ namespace SpawnDev.BlazorJS.BabylonJS6.Demo.Pages
                 scene?.JSDispose();
                 engine.JSDispose();
                 RenderLoopCallback?.Dispose();
+                SceneBeforeRenderCallback?.Dispose();
             }
         }
     }
