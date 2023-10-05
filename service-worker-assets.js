@@ -25,7 +25,7 @@
       "url": "_framework\/icudt_no_CJK.dat"
     },
     {
-      "hash": "sha256-zZfFn0GT3lKw02FNJxxhxTVu7bgy7NMp1Qu8Yh1FjzY=",
+      "hash": "sha256-ncgYF5JeZ7UxqEoWvWsedBjym1l6xVzuoomBKrtzf7A=",
       "url": "_framework\/blazor.boot.json"
     },
     {
@@ -97,15 +97,15 @@
       "url": "_framework\/Microsoft.JSInterop.WebAssembly.wasm"
     },
     {
-      "hash": "sha256-qZdcLl2oAzq+oZc3cADn+djSp2QJ5eZ3ZutjdTGmDEg=",
+      "hash": "sha256-IbOv9Ewod0yCT4snyJ7NF8We\/xBTnF2E0mLhAI+j6QA=",
       "url": "_framework\/SpawnDev.BlazorJS.BabylonJS6.Demo.wasm"
     },
     {
-      "hash": "sha256-HP2ARdRmcf2rCJzAdjItPauolWNOINALBx8JjmQ0QSA=",
+      "hash": "sha256-+RzhUdtfoPAhCcLGsoG71NNsePk7mLQoB05ddCfOGkM=",
       "url": "_framework\/SpawnDev.BlazorJS.BabylonJS6.wasm"
     },
     {
-      "hash": "sha256-oRLiKhb2xU07NqGXjWhqvcHifiIlsoDP6XY0MGLeX1Q=",
+      "hash": "sha256-Tj8aJTxw1AdTl2hUYBk7rsAJgwOYY\/bHDLiMH16llUo=",
       "url": "_framework\/SpawnDev.BlazorJS.wasm"
     },
     {
@@ -141,7 +141,7 @@
       "url": "_framework\/System.Memory.wasm"
     },
     {
-      "hash": "sha256-xscSL0pSTPJxUc6qAVTPdthOBGVU9llx8N3sQKWxe8w=",
+      "hash": "sha256-0Y5rZO42w\/ZajJghEMfTqWsQVxuWEunf9rGfXz0Uxgc=",
       "url": "_framework\/System.Net.Http.wasm"
     },
     {
@@ -169,7 +169,7 @@
       "url": "_framework\/System.Runtime.InteropServices.JavaScript.wasm"
     },
     {
-      "hash": "sha256-kqwM7CTSFHe6sL+QW+cAQ2kBN3UXNYwIGk274Xlz18Q=",
+      "hash": "sha256-aSUSPjIYyo3IUQqyme9QUFdKBkySG5pt0I9TTKbatZA=",
       "url": "_framework\/System.Runtime.wasm"
     },
     {
@@ -249,5 +249,5 @@
       "url": "_content\/SpawnDev.BlazorJS.BabylonJS6\/babylonjs.serializers.min.js"
     }
   ],
-  "version": "Ey+LytpF"
+  "version": "D\/VRSSqY"
 };
