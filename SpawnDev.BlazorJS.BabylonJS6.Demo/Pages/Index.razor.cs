@@ -25,6 +25,7 @@ namespace SpawnDev.BlazorJS.BabylonJS6.Demo.Pages
         BABYLON.Engine? engine;
         BABYLON.Scene? scene;
         ActionCallback? RenderLoopCallback;
+        ActionCallback? SceneBeforeRenderCallback;
 
         protected override async Task OnAfterRenderAsync(bool firstRender)
         {
@@ -57,16 +58,13 @@ namespace SpawnDev.BlazorJS.BabylonJS6.Demo.Pages
         {
             // Creates a basic Babylon Scene object
             var scene = new BABYLON.Scene(engine);
-            // Creates and positions a free camera
-            var camera = new BABYLON.FreeCamera("camera1", new BABYLON.Vector3(1000, 1000, 1000), scene);
-            // Targets the camera to scene origin
-            camera.SetTarget(BABYLON.Vector3.Zero());
+            // Adding a light
+            var light = new BABYLON.PointLight("Omni", new BABYLON.Vector3(20, 20, 100), scene);
+            // Adding an Arc Rotate Camera
+            var camera = new BABYLON.ArcRotateCamera("Camera", 0, 1, 0, BABYLON.Vector3.Zero(), scene);
+            camera.Position = new Vector3(500, 500, 500);
             // This attaches the camera to the canvas
-            camera.AttachControl(canvas, true);
-            // Creates a light, aiming 0,1,0 - to the sky
-            var light = new BABYLON.HemisphericLight("light", new BABYLON.Vector3(0, 1, 0), scene);
-            // Dim the light a small amount - 0 to 1
-            light.Intensity = 0.7;
+            camera.AttachControl(canvas, false);
             // load .obj
             // https://free3d.com/3d-model/office-filing-cabinet-341696.html
             var response = await JS.Fetch("assets/filing_cabinet.obj");
@@ -78,6 +76,9 @@ namespace SpawnDev.BlazorJS.BabylonJS6.Demo.Pages
                 // Set the target of the camera to the first imported mesh
                 camera.Target = meshes[0].Position;
                 meshes.Map(m => m.Scaling = new Vector3(0.2));
+            }));
+            scene.RegisterBeforeRender(SceneBeforeRenderCallback = new ActionCallback(() => {
+                light.Position = camera.Position;
             }));
             return scene;
         }
