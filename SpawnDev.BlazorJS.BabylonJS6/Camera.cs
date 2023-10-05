@@ -18,6 +18,7 @@ namespace SpawnDev.BlazorJS.BabylonJS6
             public float MinZ { get => JSRef.Get<float>("minZ"); set => JSRef.Set("minZ", value); }
             public void AttachControl(object? ignored, bool noPreventDefault) => JSRef.CallVoid("attachControl", ignored, noPreventDefault);
             public void AttachControl(bool noPreventDefault) => JSRef.CallVoid("attachControl", noPreventDefault);
+            public Vector3 Position { get => JSRef.Get<Vector3>("position"); set => JSRef.Set("position", value); }
         }
     }
 }

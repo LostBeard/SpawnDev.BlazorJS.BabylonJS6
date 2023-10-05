@@ -4,9 +4,9 @@ namespace SpawnDev.BlazorJS.BabylonJS6
 {
     public static partial class BABYLON
     {
-        public class Node : JSDisposable
+        public class BaseParticleSystem : JSObject
         {
-            public Node(IJSInProcessObjectReference _ref) : base(_ref) { }
+            public BaseParticleSystem(IJSInProcessObjectReference _ref) : base(_ref) { }
         }
     }
 }

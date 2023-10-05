@@ -2,6 +2,7 @@
 
 namespace SpawnDev.BlazorJS.BabylonJS6
 {
+    // https://doc.babylonjs.com/typedoc/interfaces/BABYLON.IDisposable
     public class JSDisposable : JSObject
     {
         public JSDisposable(IJSInProcessObjectReference _ref) : base(_ref) { }

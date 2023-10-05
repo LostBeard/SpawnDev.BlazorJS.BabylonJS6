@@ -4,7 +4,6 @@ using SpawnDev.BlazorJS.JSObjects;
 
 namespace SpawnDev.BlazorJS.BabylonJS6
 {
-
     public static partial class BABYLON
     {
         public class Engine : ThinEngine
@@ -19,6 +18,4 @@ namespace SpawnDev.BlazorJS.BabylonJS6
             public void Resize() => JSRef.CallVoid("resize");
         }
     }
-
-
 }

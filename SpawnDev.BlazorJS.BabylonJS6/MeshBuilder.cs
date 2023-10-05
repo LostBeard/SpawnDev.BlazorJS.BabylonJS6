@@ -4,8 +4,6 @@
     {
         public static partial class MeshBuilder
         {
-            static BlazorJSRuntime JS => BlazorJSRuntime.JS;
-
             // CreateSphere
             public static Mesh CreateSphere(string name) => JS.Call<Mesh>("BABYLON.MeshBuilder.CreateSphere", name);
             public static Mesh CreateSphere(string name, CreateSphereOptions options) => JS.Call<Mesh>("BABYLON.MeshBuilder.CreateSphere", name, options);

@@ -4,9 +4,9 @@ namespace SpawnDev.BlazorJS.BabylonJS6
 {
     public static partial class BABYLON
     {
-        public class Node : JSDisposable
+        public class AnimationGroup : JSDisposable
         {
-            public Node(IJSInProcessObjectReference _ref) : base(_ref) { }
+            public AnimationGroup(IJSInProcessObjectReference _ref) : base(_ref) { }
         }
     }
 }
