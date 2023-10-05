@@ -25,7 +25,7 @@
       "url": "_framework\/icudt_no_CJK.dat"
     },
     {
-      "hash": "sha256-guROb+MYGpQTamHBsXpzOFB8ou\/uqjQlRS3hSxEiizU=",
+      "hash": "sha256-qvN6gtNZlcqB3p6ZiEoJ7x1tmShw8ZbMyFY3TN1SKpI=",
       "url": "_framework\/blazor.boot.json"
     },
     {
@@ -97,11 +97,11 @@
       "url": "_framework\/Microsoft.JSInterop.WebAssembly.wasm"
     },
     {
-      "hash": "sha256-xuWSPvWxJjCmdhx4y5IMt1ixw0IloPUgChvpv9rHHzU=",
+      "hash": "sha256-8\/avlkYXbphsDAonIGNtAycSVlEscMYrYKLI3\/FMb14=",
       "url": "_framework\/SpawnDev.BlazorJS.BabylonJS6.Demo.wasm"
     },
     {
-      "hash": "sha256-xG5dDaOcdMwIRjOCXRuV7Ki90HBZIN+Z2lAMivGK4VQ=",
+      "hash": "sha256-HOURylH3ShJFOqWV8tOFc1Q2eTpk8a30b0lrQo7PKs0=",
       "url": "_framework\/SpawnDev.BlazorJS.BabylonJS6.wasm"
     },
     {
@@ -253,5 +253,5 @@
       "url": "_content\/SpawnDev.BlazorJS.BabylonJS6\/babylonjs.serializers.min.js"
     }
   ],
-  "version": "qxfPnLO\/"
+  "version": "4p\/uKWkQ"
 };
