@@ -62,6 +62,7 @@ namespace SpawnDev.BlazorJS.BabylonJS6.Demo.Pages
             var light = new BABYLON.PointLight("Omni", new BABYLON.Vector3(20, 20, 100), scene);
             // Adding an Arc Rotate Camera
             var camera = new BABYLON.ArcRotateCamera("Camera", 0, 1, 0, BABYLON.Vector3.Zero(), scene);
+            // Change camera starting position so not inside Mesh
             camera.Position = new BABYLON.Vector3(500, 500, 500);
             // This attaches the camera to the canvas
             camera.AttachControl(canvas, false);
