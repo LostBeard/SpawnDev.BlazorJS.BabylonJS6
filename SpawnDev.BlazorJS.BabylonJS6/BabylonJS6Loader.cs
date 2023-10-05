@@ -7,6 +7,7 @@
         {
             JS = js;
         }
+
         public async Task Import()
         {
             await ImportCore();
@@ -19,6 +20,7 @@
             await ImportSerializers();
             await ImportViewer();
         }
+
         public async Task ImportCore()
         {
             await JS.LoadScript("_content/SpawnDev.BlazorJS.BabylonJS6/babylon.js", "BABYLON");

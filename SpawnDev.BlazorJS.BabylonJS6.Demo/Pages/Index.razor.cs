@@ -31,7 +31,9 @@ namespace SpawnDev.BlazorJS.BabylonJS6.Demo.Pages
             if (firstRender)
             {
                 Console.WriteLine("FirstRender");
-                await BabylonJS6Loader.Import();
+                await BabylonJS6Loader.ImportCore();
+                await BabylonJS6Loader.ImportLoaders();
+                await BabylonJS6Loader.ImportMaterials();
                 engine = new BABYLON.Engine(canvas, true);
                 //scene = CreateScene();
                 scene = await CreateMeshScene();
@@ -66,11 +68,13 @@ namespace SpawnDev.BlazorJS.BabylonJS6.Demo.Pages
             // Dim the light a small amount - 0 to 1
             light.Intensity = 0.7;
             // load .obj
+            // https://free3d.com/3d-model/office-filing-cabinet-341696.html
             var objBytes = await HttpClient.GetByteArrayAsync("assets/filing_cabinet.obj");
             var val = await JS.Fetch("/assets/filing_cabinet.obj");
             var blob = await val.Blob();
             var file = new File([blob], "filing_cabinet.obj");
-            BABYLON.SceneLoader.ImportMesh("", "", file, scene, Callback.CreateOne<Array<AbstractMesh>, Array<BaseParticleSystem>, Array<Skeleton>, Array<AnimationGroup>, Array<TransformNode>, Array<Geometry>, Array<Light>>((meshes, particaleSystems, skeletons, animationGroups, transformNodes, geometries, lights) => {
+            BABYLON.SceneLoader.ImportMesh("", "", file, scene, Callback.CreateOne<Array<AbstractMesh>, Array<BaseParticleSystem>, Array<Skeleton>, Array<AnimationGroup>, Array<TransformNode>, Array<Geometry>, Array<Light>>((meshes, particaleSystems, skeletons, animationGroups, transformNodes, geometries, lights) =>
+            {
                 // Set the target of the camera to the first imported mesh
                 camera.Target = meshes[0].Position;
                 meshes.Map(m => m.Scaling = new Vector3(0.2));
