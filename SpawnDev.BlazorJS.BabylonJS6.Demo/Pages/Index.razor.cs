@@ -69,9 +69,9 @@ namespace SpawnDev.BlazorJS.BabylonJS6.Demo.Pages
             light.Intensity = 0.7;
             // load .obj
             // https://free3d.com/3d-model/office-filing-cabinet-341696.html
-            var objBytes = await HttpClient.GetByteArrayAsync("assets/filing_cabinet.obj");
-            var val = await JS.Fetch("/assets/filing_cabinet.obj");
-            var blob = await val.Blob();
+            var response = await JS.Fetch("assets/filing_cabinet.obj");
+            if (!response.Ok) throw new Exception("Failed to load: filing_cabinet.obj");
+            var blob = await response.Blob();
             var file = new File([blob], "filing_cabinet.obj");
             BABYLON.SceneLoader.ImportMesh("", "", file, scene, Callback.CreateOne<Array<AbstractMesh>, Array<BaseParticleSystem>, Array<Skeleton>, Array<AnimationGroup>, Array<TransformNode>, Array<Geometry>, Array<Light>>((meshes, particaleSystems, skeletons, animationGroups, transformNodes, geometries, lights) =>
             {
