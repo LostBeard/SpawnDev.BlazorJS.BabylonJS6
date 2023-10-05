@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "SpawnDev.BlazorJS.BabylonJS6.Demo",
   "resources": {
-    "hash": "sha256-Cox8XHdo915J2H34HHUo3Qpkod6JmzVK4qq4xq+sGzk=",
+    "hash": "sha256-XlA7lAz4aY5M6gSzsHskGakJ6AP+WzesmsuApiFEgJ4=",
     "jsModuleNative": {
       "dotnet.native.8.0.0-rc.1.23419.4.l61x9jk9t0.js": "sha256-JK2RZ8HAHqsZ2j+w+MZR0MZW/SnWFWmnrdRnSUHhqeg="
     },
@@ -32,8 +32,8 @@
       "Microsoft.Extensions.Primitives.wasm": "sha256-6NFc2uTk37V5Z/pUnrFw+LakV4I5pZ+9QMPqWWmFLmk=",
       "Microsoft.JSInterop.wasm": "sha256-U1Bnhi6EdKDV8/4lppXJcSXdEXxo8UUJGbxhNCgr+1U=",
       "Microsoft.JSInterop.WebAssembly.wasm": "sha256-csFFqjRvUsl2JrUKBPxAIGR9fBlVZ7aMe/SQpteoas4=",
-      "SpawnDev.BlazorJS.BabylonJS6.Demo.wasm": "sha256-6e8uNgol9d/wZ8lS12PRAZav9SAoNwyeef363mMG5PQ=",
-      "SpawnDev.BlazorJS.BabylonJS6.wasm": "sha256-1H7IEC4o/MPWTd53dN3pnz2BCbeny2zcBGlcAUsOtvU=",
+      "SpawnDev.BlazorJS.BabylonJS6.Demo.wasm": "sha256-PCmM96k3JmeNvSQr+dCPI39OYqNfPARA3/xp3lzb/zA=",
+      "SpawnDev.BlazorJS.BabylonJS6.wasm": "sha256-OnEO2xg+GiF5NwzKGk/ooa9mPnBdLNKApOh0GvfpKAU=",
       "SpawnDev.BlazorJS.wasm": "sha256-Tj8aJTxw1AdTl2hUYBk7rsAJgwOYY/bHDLiMH16llUo=",
       "System.Collections.Concurrent.wasm": "sha256-4szx8ojhXBHYXJSouwIUzwd/bzjQ1SdLaTGvGdNgk28=",
       "System.Collections.wasm": "sha256-LlvovIEbabZiq2JhSGBRFi5wyiQx1YscnljIeZ7JzlU=",
@@ -43,7 +43,7 @@
       "System.Linq.Expressions.wasm": "sha256-LIJskxXNhelWDsRX0kYppS0ShAArEbaTsVdRLqzy+RI=",
       "System.Linq.wasm": "sha256-z+0wMuzoxNctLwxFSNyuwvjV2Fd0Ys0ABPWohOa13Ic=",
       "System.Memory.wasm": "sha256-T9d0ahAzVlHoAFYP9/M0JKgxpuQ4ZWk4T4Kf6zH/NzE=",
-      "System.Net.Http.wasm": "sha256-0Y5rZO42w/ZajJghEMfTqWsQVxuWEunf9rGfXz0Uxgc=",
+      "System.Net.Http.wasm": "sha256-xscSL0pSTPJxUc6qAVTPdthOBGVU9llx8N3sQKWxe8w=",
       "System.Net.Primitives.wasm": "sha256-29aleyKDkMYLYEWJEauw7VSko4tDLjB+rnFrSLg56fE=",
       "System.ObjectModel.wasm": "sha256-7v8d/gu9AVtBEJvoKEri83foGqhPctO2U1N/T+eKgmU=",
       "System.Private.CoreLib.wasm": "sha256-LP9Fr0zuy8lfVDvvR0rA5RCYQRzsrzGElQ/VCsRaPPM=",

@@ -25,7 +25,7 @@
       "url": "_framework\/icudt_no_CJK.dat"
     },
     {
-      "hash": "sha256-2ztXelv6W6x2kY+S9bXBt+1kELm4HTIBliZgMbzLBMc=",
+      "hash": "sha256-43id5q0EoFvnfCLzpW7xK\/W+SUVAwDp9h\/YTAyArquM=",
       "url": "_framework\/blazor.boot.json"
     },
     {
@@ -97,11 +97,11 @@
       "url": "_framework\/Microsoft.JSInterop.WebAssembly.wasm"
     },
     {
-      "hash": "sha256-6e8uNgol9d\/wZ8lS12PRAZav9SAoNwyeef363mMG5PQ=",
+      "hash": "sha256-PCmM96k3JmeNvSQr+dCPI39OYqNfPARA3\/xp3lzb\/zA=",
       "url": "_framework\/SpawnDev.BlazorJS.BabylonJS6.Demo.wasm"
     },
     {
-      "hash": "sha256-1H7IEC4o\/MPWTd53dN3pnz2BCbeny2zcBGlcAUsOtvU=",
+      "hash": "sha256-OnEO2xg+GiF5NwzKGk\/ooa9mPnBdLNKApOh0GvfpKAU=",
       "url": "_framework\/SpawnDev.BlazorJS.BabylonJS6.wasm"
     },
     {
@@ -141,7 +141,7 @@
       "url": "_framework\/System.Memory.wasm"
     },
     {
-      "hash": "sha256-0Y5rZO42w\/ZajJghEMfTqWsQVxuWEunf9rGfXz0Uxgc=",
+      "hash": "sha256-xscSL0pSTPJxUc6qAVTPdthOBGVU9llx8N3sQKWxe8w=",
       "url": "_framework\/System.Net.Http.wasm"
     },
     {
@@ -253,5 +253,5 @@
       "url": "_content\/SpawnDev.BlazorJS.BabylonJS6\/babylonjs.serializers.min.js"
     }
   ],
-  "version": "tonD3h9C"
+  "version": "ltdlno\/V"
 };
