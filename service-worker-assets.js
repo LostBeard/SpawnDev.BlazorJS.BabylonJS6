@@ -25,7 +25,7 @@
       "url": "_framework\/icudt_no_CJK.dat"
     },
     {
-      "hash": "sha256-ncgYF5JeZ7UxqEoWvWsedBjym1l6xVzuoomBKrtzf7A=",
+      "hash": "sha256-fo+pHxJV3KOZSPGFoU0tSX\/U+3EKuuoGLOihR+wGxRo=",
       "url": "_framework\/blazor.boot.json"
     },
     {
@@ -97,11 +97,11 @@
       "url": "_framework\/Microsoft.JSInterop.WebAssembly.wasm"
     },
     {
-      "hash": "sha256-IbOv9Ewod0yCT4snyJ7NF8We\/xBTnF2E0mLhAI+j6QA=",
+      "hash": "sha256-WYNJfBq+fJHGff0ULxqtKUiDI7K34zChmmXrAqSN8ck=",
       "url": "_framework\/SpawnDev.BlazorJS.BabylonJS6.Demo.wasm"
     },
     {
-      "hash": "sha256-+RzhUdtfoPAhCcLGsoG71NNsePk7mLQoB05ddCfOGkM=",
+      "hash": "sha256-u0YZ9qcXvI1IiI9mLyZe0xnMmajO5OJvaFOcBwuzoJM=",
       "url": "_framework\/SpawnDev.BlazorJS.BabylonJS6.wasm"
     },
     {
@@ -193,6 +193,10 @@
       "url": "SpawnDev.BlazorJS.BabylonJS6.Demo.styles.css"
     },
     {
+      "hash": "sha256-gQWWPQsBVldeac4rfBTvtpEvdz6RCmED2bIdUcaDBIQ=",
+      "url": "assets\/filing_cabinet.obj"
+    },
+    {
       "hash": "sha256-jo2tdnUnyqhlorkzugh4G0OlVmikVIl5zAHtwsi18mY=",
       "url": "css\/app.css"
     },
@@ -249,5 +253,5 @@
       "url": "_content\/SpawnDev.BlazorJS.BabylonJS6\/babylonjs.serializers.min.js"
     }
   ],
-  "version": "D\/VRSSqY"
+  "version": "5i4cLyaD"
 };
