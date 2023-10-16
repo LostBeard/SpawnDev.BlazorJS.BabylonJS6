@@ -79,6 +79,7 @@ namespace SpawnDev.BlazorJS.BabylonJS6.Demo.Pages
                 // Scale to half size
                 meshes.ForEach(m => m.Scaling.ScaleInPlace(0.5));
             }));
+            JS.Set("_scene", scene);
             scene.RegisterBeforeRender(SceneBeforeRenderCallback = new ActionCallback(() => {
                 light.Position = camera.Position;
             }));
