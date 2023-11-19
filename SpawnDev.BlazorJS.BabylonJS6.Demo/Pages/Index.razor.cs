@@ -32,9 +32,9 @@ namespace SpawnDev.BlazorJS.BabylonJS6.Demo.Pages
             if (firstRender)
             {
                 Console.WriteLine("FirstRender");
-                await BabylonJS6Loader.ImportCore();
-                await BabylonJS6Loader.ImportLoaders();
-                await BabylonJS6Loader.ImportMaterials();
+                await BabylonJS6Loader.ImportCore;
+                await BabylonJS6Loader.ImportLoaders;
+                await BabylonJS6Loader.ImportMaterials;
                 engine = new BABYLON.Engine(canvas, true);
                 //scene = CreateScene();
                 scene = await CreateMeshScene();
