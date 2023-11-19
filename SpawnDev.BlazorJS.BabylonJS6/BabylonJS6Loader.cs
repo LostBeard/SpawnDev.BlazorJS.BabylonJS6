@@ -16,7 +16,7 @@
             await ImportInspector();
             await ImportMaterials();
             await ImportPostProcess();
-            await ImportProceduralTectures();
+            await ImportProceduralTextures();
             await ImportSerializers();
             await ImportViewer();
         }
@@ -49,7 +49,7 @@
         {
             await JS.LoadScript("_content/SpawnDev.BlazorJS.BabylonJS6/babylonjs.postProcess.min.js");
         }
-        public async Task ImportProceduralTectures()
+        public async Task ImportProceduralTextures()
         {
             await JS.LoadScript("_content/SpawnDev.BlazorJS.BabylonJS6/babylonjs.proceduralTextures.min.js");
         }
